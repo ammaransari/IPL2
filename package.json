@@ -1,0 +1,28 @@
+{
+  "name": "ipl_project",
+  "version": "0.0.1",
+  "description": "IPL Data visiualization",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ipl" : "node index.js",
+    "start2": "http-server",
+    "start": "node app.js"
+
+  },
+  "keywords": [
+    "ipl2\u001b[A\u001b[A\u001b[A\u001b[A\u001b[A\u001b[A\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C",
+    "ipl2\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "express": "^4.17.1",
+    "highcharts-more": "^0.1.7",
+    "http-server": "^0.12.3"
+  },
+  "engines": {
+    "node": "12.18.3"
+  }
+}

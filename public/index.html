@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="IPL visualization">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link href="./styles.css" rel="stylesheet">
+    <title>
+        IPL visualization
+    </title>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
+    <script src = "node_modules/highcharts-more/index.js"></script>
+    <script src="https://code.highcharts.com/highcharts-3d.js"></script>
+    <script src="https://code.highcharts.com/modules/cylinder.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+</head>
+
+<body>
+    <h1>IPL Dataset visualization</h1>
+    <div class="input-container">
+        <span class="label">Enter year: </span>
+        <input type="number" min="2008" max="2019" class="choose" />
+        <button class="select-button">Submit</button>
+        <span class="error invisible">Enter year from 2008 to 2019</span>
+    </div>
+    <div id="dynamic-data-of-economical-bowlers" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+    
+    <div id="matches-played-per-year" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+ 
+    <div id="no-of-matches-won-by-each-team" ></div>
+    <div id="max-run-conceded-by-each-team"></div> 
+    <div id="top-ten-economical-bowlers" ></div>
+    <div id="matches-played-by-each-team-per-venue" style="min-width: 310px; height: 550px; margin: 0 auto"></div>
+    
+    <script src="./app.js"></script>
+</body>
