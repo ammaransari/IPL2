@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "ipl" : "node index.js",
     "start2": "http-server",
-    "start": "node app.js"
+    "start": "node index.js"
 
   },
   "keywords": [
